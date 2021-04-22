@@ -2,15 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <RazorCompileOnPublish>false</RazorCompileOnPublish>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Remove="Pages\PaginaNaoEncontrada.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Pages\Shared\Referencias\css\_CssLogin.cshtml~RF2219b3c5.TMP" />
-    <None Remove="Pages\Shared\Referencias\css\_CssPrincipal.cshtml~RF21f5a6e3.TMP" />
   </ItemGroup>
 
   <ItemGroup>

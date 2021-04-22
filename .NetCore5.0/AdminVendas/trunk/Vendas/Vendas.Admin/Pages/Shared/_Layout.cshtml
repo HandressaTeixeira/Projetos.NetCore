@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Vendas.Admin</title>
-    <partial name="~/Pages/Shared/Referencias/css/_CssPrincipal.cshtml" />
+    <partial name="~/Pages/Shared/Referencias/_CssPrincipal.cshtml" />
 </head>
 <body id="page-top">
 
@@ -324,13 +324,13 @@
             </div>
             <!-- End of Main Content -->
             <!-- Footer -->
-            @*<footer class="sticky-footer bg-white">
+            <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <span>Copyright &copy; Your Website 2019</span>
                     </div>
                 </div>
-            </footer>*@
+            </footer>
             <!-- End of Footer -->
 
         </div>
@@ -343,12 +343,12 @@
         <i class="fas fa-angle-up"></i>
     </a>
 
-    <footer class="border-top footer text-muted">
+    @*<footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2021 - Vendas.Admin - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
-    </footer>
-    <partial name="~/Pages/Shared/Referencias/js/_JsPrincipal.cshtml" />
+    </footer>*@
+    <partial name="~/Pages/Shared/Referencias/_JsPrincipal.cshtml" />
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

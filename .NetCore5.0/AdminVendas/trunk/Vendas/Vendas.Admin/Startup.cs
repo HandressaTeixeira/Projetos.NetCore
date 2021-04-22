@@ -24,6 +24,8 @@ namespace Vendas.Admin
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            //Faz a pagina ser carregada após alterações no visual studio
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

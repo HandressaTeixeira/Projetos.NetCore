@@ -707,11 +707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\Projeto2\\Eventos.IO.Domain\\Eventos.IO.Negocio.csproj",
+      "projectUniqueName": "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\.NetCore2.2\\Projeto2\\Eventos.IO.Domain\\Eventos.IO.Negocio.csproj",
       "projectName": "Eventos.IO.Negocio",
-      "projectPath": "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\Projeto2\\Eventos.IO.Domain\\Eventos.IO.Negocio.csproj",
+      "projectPath": "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\.NetCore2.2\\Projeto2\\Eventos.IO.Domain\\Eventos.IO.Negocio.csproj",
       "packagesPath": "C:\\Users\\Handr\\.nuget\\packages\\",
-      "outputPath": "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\Projeto2\\Eventos.IO.Domain\\obj\\",
+      "outputPath": "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\.NetCore2.2\\Projeto2\\Eventos.IO.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Handr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -726,9 +726,10 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\Projeto2\\Eventos.IO.Negocio.Core\\Eventos.IO.Negocio.Core.csproj": {
-              "projectPath": "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\Projeto2\\Eventos.IO.Negocio.Core\\Eventos.IO.Negocio.Core.csproj"
+            "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\.NetCore2.2\\Projeto2\\Eventos.IO.Negocio.Core\\Eventos.IO.Negocio.Core.csproj": {
+              "projectPath": "F:\\Desenvolvimento de sistemas\\Projetos\\Projetos.NetCore\\.NetCore2.2\\Projeto2\\Eventos.IO.Negocio.Core\\Eventos.IO.Negocio.Core.csproj"
             }
           }
         }
@@ -741,6 +742,7 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
+        "targetAlias": "netcoreapp2.2",
         "dependencies": {
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -759,7 +761,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
